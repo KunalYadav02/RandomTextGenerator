@@ -1,0 +1,24 @@
+.blob1 {
+  position: absolute;
+  top: 15%;
+  left: -5%;
+
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+  background: var(--cyan);
+  filter: blur(30px);
+}
+.blob2 {
+  position: absolute;
+  bottom: 10%;
+  right: -5%;
+
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+  background: var(--coral);
+  filter: blur(10px);
+}

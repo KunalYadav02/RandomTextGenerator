@@ -1,0 +1,22 @@
+.newField {
+  select {
+    display: inline;
+    border-radius: 5px;
+    font-size: 1em;
+    background: var(--coral);
+
+    color: #222;
+    padding: calc(var(--padding) / 4) calc(var(--padding) / 3);
+    &:focus {
+      border: 1px solid #000;
+      outline: none;
+    }
+  }
+  option {
+    color: var(--coral);
+    background: #eee;
+  }
+  .done {
+    color: green;
+  }
+}

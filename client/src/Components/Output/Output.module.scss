@@ -1,0 +1,51 @@
+.output {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0 0 0 / 0.2);
+  backdrop-filter: blur(10px);
+
+  div {
+    min-width: 50%;
+    max-width: 60%;
+    height: auto;
+    max-height: 80vh;
+
+    background: var(--primaryColor);
+    padding: calc(var(--padding) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: calc(var(--padding) / 2);
+    border-radius: 10px;
+    .header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.5rem;
+      button {
+        background: none;
+        color: red;
+        font-size: 2rem;
+      }
+    }
+    pre {
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      padding: calc(var(--padding) / 2);
+
+      background: #fff;
+      border-radius: 10px;
+    }
+    button {
+      background: var(--coral);
+      padding: calc(var(--padding) / 4);
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+  }
+}

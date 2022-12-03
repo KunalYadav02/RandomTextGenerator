@@ -1,0 +1,14 @@
+.generateBtn {
+  background: var(--secondaryColor);
+  width: 20vmin;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  cursor: pointer;
+  span {
+    display: inline-block;
+    width: min-content;
+  }
+}

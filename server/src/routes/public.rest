@@ -1,0 +1,64 @@
+#GET 
+http://localhost:5000/genName
+
+###
+
+
+POST http://localhost:5000/
+content-type: application/json 
+
+{
+ "numDocuments":15,
+ "schema":[
+    {
+        "fieldName":"Name",
+        "fieldType":"Name"
+    },
+    {
+        "fieldName":"Email",
+        "fieldType":"Email"
+    },
+    {
+        "fieldName":"Bio",
+        "fieldType":"Text"
+    },
+    {
+        "fieldName":"Phone",
+        "fieldType":"Phone"
+    },
+    {
+        "fieldName":"Avatar",
+        "fieldType":"Avatar"
+    }
+ ]
+   
+}
+
+
+###
+
+
+#GET 
+http://localhost:5000/genEmail
+
+
+###
+
+#GET 
+http://localhost:5000/genPara/?lines=10
+
+###
+
+#GET 
+http://localhost:5000/genPhone
+
+
+###
+
+#GET 
+http://localhost:5000/genString/?length=10
+
+###
+
+#GET 
+http://localhost:5000/genIdenticon/?size=500&seed=luffy
